@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T15:13:51.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="K93HlLw_qYJ0t_VdYUUW" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T01:31:09.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="X1-7HQgv51T2p9GS4ctC" version="14.4.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="307" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
             <mxPoint x="1070" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-1" value="模型预测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-1" value="反应器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-2" value="可重构海上平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -194,11 +194,37 @@
         <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-22" value="估计量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1325" y="700" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-23" value="机器人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1375" y="820" width="120" height="60" as="geometry" />
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R-p-HZD9Jhe1TzLBUQ3K-23" target="R-p-HZD9Jhe1TzLBUQ3K-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1375" y="930" width="120" height="60" as="geometry" />
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-23" value="重构规划" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-24" value="路径规划" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-25" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="R-p-HZD9Jhe1TzLBUQ3K-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1435" y="800" as="sourcePoint" />
+            <mxPoint x="1460" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-26" value="期望模块排列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R-p-HZD9Jhe1TzLBUQ3K-25">
+          <mxGeometry x="0.3879" relative="1" as="geometry">
+            <mxPoint x="35" y="-14.48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1434.66" y="1020" as="sourcePoint" />
+            <mxPoint x="1435" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-29" value="路径" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1020" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-31" value="组装顺序及位置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="920" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
