@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T01:31:09.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="X1-7HQgv51T2p9GS4ctC" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-13T12:20:26.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="oZw-2K7itwaF7sFs3Ffg" version="14.4.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="307" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="347" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
             <mxPoint x="1070" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-1" value="反应器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-1" value="控制器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R-p-HZD9Jhe1TzLBUQ3K-2" value="可重构海上平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
